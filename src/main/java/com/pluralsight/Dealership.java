@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dealership {
+public class Dealership  {
     private String name;
     private String address;
     private String phonenumber;
@@ -72,4 +72,5 @@ public void addVehicle(Vehicle vehicle){
 
 
     }
+
 }

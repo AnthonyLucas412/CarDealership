@@ -9,7 +9,7 @@ import java.time.LocalTime;
 
 public class DealershipFileManager {
 
-    public static Dealership getDealership() {
+    public Dealership getDealership() {
         //File_name represents the path to the file that I want to read.
         try {
 Dealership dealership = new Dealership("","","");

@@ -11,6 +11,7 @@ public class Vehicle {
     private double price;
 
     public Vehicle(int vin, int year, String make, String model, String vehicleType, String color, int odometer, double price) {
+
         this.vin = vin;
         this.year = year;
         this.make = make;
@@ -55,7 +56,7 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
+        return "Vehicle: " +
                 "vin=" + vin +
                 ", year=" + year +
                 ", make='" + make + '\'' +
@@ -64,6 +65,6 @@ public class Vehicle {
                 ", color='" + color + '\'' +
                 ", odometer=" + odometer +
                 ", price=" + price +
-                '}';
+                ':';
     }
 }
