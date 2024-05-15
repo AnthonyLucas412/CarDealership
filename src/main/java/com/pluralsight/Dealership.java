@@ -39,6 +39,7 @@ public class Dealership  {
     public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
     }
+
     public List<Vehicle> getVehiclesByPrice(double min , double max) {
 return null;
     }
