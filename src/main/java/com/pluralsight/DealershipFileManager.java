@@ -27,8 +27,20 @@ Dealership dealership = new Dealership("","","");
                     String color = parts[5];
                     int odometer = Integer.parseInt(parts[6]);
                     double price = Double.parseDouble(parts[7]);
-                    Vehicle vehicle = new Vehicle(vin,year, make,model,vehicleType,color,odometer,price);
-                   dealership.addVehicle(vehicle);
+                    Vehicle vehicle = new Vehicle(vin, year, make, model, vehicleType, color, odometer, price);
+                    dealership.addVehicle(vehicle);
+
+                }else if (parts.length == 3){
+
+                    String name = parts[0].trim();
+                    String address = parts[1].trim();
+                    String phonenumber = parts[2].trim();
+
+                   Dealership dealership1 = new Dealership(name, address, phonenumber);
+                   
+
+
+
 
                 }
 
